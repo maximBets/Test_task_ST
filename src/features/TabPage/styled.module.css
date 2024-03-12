@@ -1,0 +1,63 @@
+.tabText {
+  width: 40px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.tabTextBold {
+  font-weight: bold;
+}
+
+.containerTab {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.textBlock {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.containerList {
+  width: 50%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+
+.table td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: left;
+}
+
+.table td {
+  background-color: #e2e2e2;
+}
+
+.containerTiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.wrapperTile {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+}
